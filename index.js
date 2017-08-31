@@ -35,33 +35,28 @@
     }
   })
 
+  stopButton.addEventListener('mouseenter', function (){
+    console.log('Entered STOP Button');
+  })
+
+  stopButton.addEventListener('mouseleave', function () {
+    console.log('Left STOP Button');
+  })
+
+  slowButton.addEventListener('mouseenter', function (){
+    console.log('Entered SLOW Button');
+  })
+
+  slowButton.addEventListener('mouseleave', function () {
+    console.log('Left SLOW Button');
+  })
+
+  goButton.addEventListener('mouseenter', function (){
+    console.log('Entered GO Button');
+  })
+
+  goButton.addEventListener('mouseleave', function () {
+    console.log('Left GO Button');
+  })
 
 })();
-
-
-// let domh3 = document.getElementById('hello');
-//
-// domh3.addEventListener("click", function(){
-//   domh3.style.color = "red";
-// })
-
-
-// First way to do it
-// let text = document.getElementById('h3text');
-//
-//
-// function keydownText(e){
-//   if(e.keyCode == 32){
-//     text.style.fontSize = "32px";
-//   }
-// }
-//
-// function keyupText(e){
-//   if(e.keyCode == 32){
-//     text.style.fontSize = "18px";
-//   }
-// }
-//
-//
-// document.body.addEventListener('keydown', keydownText)
-// document.body.addEventListener('keyup', keyupText)
