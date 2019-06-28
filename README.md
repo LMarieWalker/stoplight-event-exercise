@@ -1,3 +1,4 @@
+
 # Stoplight Exercise
 
 As always, fork and clone this repository.
